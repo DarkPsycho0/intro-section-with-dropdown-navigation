@@ -1,0 +1,124 @@
+@media(max-width:1440px){
+    .features-toggle{
+        top: 9%;
+        left: 9%;
+    }
+    .Company-toggle{
+        top: 9%;
+        left: 22%;
+    }
+    .description, .btn{
+        margin-bottom: 55px;
+    }
+    .main .image{
+        height: 670px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:1024px){
+    .features-toggle{
+        top: 13%;
+        left: 12%;
+    }
+    .Company-toggle{
+        top: 13%;
+        left: 31%;
+    }
+    .title{
+        font-size: 65px;
+        margin-bottom: 40px;
+        width: 440px;
+    }
+    .description{
+        width: 440px;
+        font-size: 18px;
+    }
+    .main .image{
+        width: 520px;
+        height: 610px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:768px){
+    .header a img{
+        margin: 10px 20px 0;
+    }
+    .menu{
+        width: 400px;
+    }
+    .features-toggle{
+        left: 8%;
+    }
+    .Company-toggle{
+        left: 32%;
+    }
+    .main{
+        flex-direction: column-reverse;
+        height: 600px;
+        text-align: center;
+    }
+    .title{
+        margin: 20px 0;
+        width: 620px;
+        font-size: 60px;
+    }
+    .description{
+        width: 620px;
+        margin-bottom: 20px;
+    }
+    .btn{
+        margin-bottom: 40px;
+    }
+    .main .image{
+        width: 520px;
+        height: 300px;
+        margin-left: 0;
+    }
+    .brands{
+        max-width: 620px;
+    }
+}
+@media(max-width:425px){
+    .header div{
+        display: none;
+    }
+    .main .image, .title, .description{
+        width: 425px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .description{
+        font-size: 19px;
+    }
+}
+@media(max-width:375px){
+    .header div{
+        display: none;
+    }
+    .main .image, .title, .description{
+        width: 375px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .description{
+        font-size: 17px;
+    }
+}
+@media(max-width:320px){
+    .main .image, .title, .description{
+        width: 320px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .brands li img{
+        width: 70px;
+    }
+}

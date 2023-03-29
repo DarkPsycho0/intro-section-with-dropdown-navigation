@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    color: hsl(0, 0%, 41%);
+    transition: 0.3s ease-in-out;
+}
+.header div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header a img{
+    margin: 10px 80px 0 20px;
+}
+.header li{
+    transition: 0.3s ease-in-out;
+}
+.menu{
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+}
+.menu-item img{
+    height: 6px;
+    margin-left: 5px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-right: 20px;
+}
+.login li:last-child{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out
+}
+.login li:last-child:hover{
+    border: 2px solid hsl(0, 0%, 8%);
+}
+.features-toggle, .Company-toggle{
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px hsl(0, 0%, 80%);
+}
+.features-toggle li, .Company-toggle li{
+    margin-bottom: 10px;
+}
+.features-toggle li img{
+    margin-right: 5px;
+}
+.features-toggle{
+    top: 11%;
+    left: 19%;
+}
+.Company-toggle{
+    top: 11%;
+    left: 29%;
+}
+li:hover{
+    color: hsl(0, 0%, 8%);
+}
+.main{
+    display: flex;
+}
+.title{
+    font-size: 100px;
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 40px;
+    width: 670px;
+    margin-top: 150px;
+}
+.main .image{
+    width: 600px;
+    height: 750px;
+    margin-left: 140px;
+}
+.description{
+    color: hsl(0, 0%, 41%);
+    width: 480px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 120px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+.brands{
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+}
+.none{
+    display: none;
+}

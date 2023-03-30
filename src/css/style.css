@@ -63,14 +63,14 @@ body{
 .login li:last-child:hover{
     border: 2px solid hsl(0, 0%, 8%);
 }
-.features-toggle, .Company-toggle{
+.features-toggle, .company-toggle{
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px hsl(0, 0%, 80%);
 }
-.features-toggle li, .Company-toggle li{
+.features-toggle li, .company-toggle li{
     margin-bottom: 10px;
 }
 .features-toggle li img{
@@ -80,7 +80,7 @@ body{
     top: 11%;
     left: 19%;
 }
-.Company-toggle{
+.company-toggle{
     top: 11%;
     left: 29%;
 }
@@ -129,6 +129,19 @@ li:hover{
     display: flex;
     max-width: 500px;
     justify-content: space-between;
+}
+.close-menu{
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+}
+.toggle-menu{
+    display: none;
+    width: 40px;
+    height: 40px;
 }
 .none{
     display: none;

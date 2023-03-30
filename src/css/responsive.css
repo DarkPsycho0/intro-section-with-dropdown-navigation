@@ -3,7 +3,7 @@
         top: 9%;
         left: 9%;
     }
-    .Company-toggle{
+    .company-toggle{
         top: 9%;
         left: 22%;
     }
@@ -21,7 +21,7 @@
         top: 13%;
         left: 12%;
     }
-    .Company-toggle{
+    .company-toggle{
         top: 13%;
         left: 31%;
     }
@@ -49,9 +49,11 @@
         width: 400px;
     }
     .features-toggle{
+        top: 14%;
         left: 8%;
     }
-    .Company-toggle{
+    .company-toggle{
+        top: 14%;
         left: 32%;
     }
     .main{
@@ -82,7 +84,44 @@
 }
 @media(max-width:425px){
     .header div{
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 120px 40px;
+        width: 75%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+    }
+    .header div.none{
         display: none;
+    }
+    .header .menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .margin{
+        margin-bottom: 20px;
+    }
+    .header .menu li{
+        align-self: flex-start;
+    }
+    .features-toggle, .company-toggle{
+        position: static;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .login{
+        flex-direction: column;
+        margin-right: 0;
+        width: 100%;
+    }
+    .login li:last-child{
+        width: 100%;
+        text-align: center;
     }
     .main .image, .title, .description{
         width: 425px;
@@ -93,11 +132,19 @@
     .description{
         font-size: 19px;
     }
+    .header{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .toggle-menu{
+        display: flex;
+        margin-right: 20px;
+    }
+    .close-menu{
+        display: flex;
+    }
 }
 @media(max-width:375px){
-    .header div{
-        display: none;
-    }
     .main .image, .title, .description{
         width: 375px;
     }

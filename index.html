@@ -18,49 +18,55 @@
             <a href="#">
                 <img src="./src/images/logo.svg" alt="logo">
             </a>
-            <div>
+            <div class="mobile-menu">
                 <nav>
                     <ul class="menu">
-                        <li class="menu-item">
+                        <li><img class="close-menu" src="./src/images/icon-close-menu.svg" alt="close menu"></li>
+                        <li class="menu-item features margin">
                             <p>Features</p>
                             <img src="./src/images/icon-arrow-down.svg" alt="arrow">
                         </li>
-                        <li class="menu-item">
+                        <li>
+                            <ul class="features-toggle none">
+                                <li>
+                                    <img src="./src/images/icon-todo.svg" alt="icon Todo">
+                                    <a href="#">Todo List</a>
+                                </li>
+                                <li>
+                                    <img src="./src/images/icon-calendar.svg" alt="icon Todo">
+                                    <a href="#">Calendar</a>
+                                </li>
+                                <li>
+                                    <img src="./src/images/icon-reminders.svg" alt="icon Todo">
+                                    <a href="#">Reminders</a>
+                                </li>
+                                <li>
+                                    <img src="./src/images/icon-planning.svg" alt="icon Todo">
+                                    <a href="#">Planning</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item company margin">
                             <p>Company</p>
                             <img src="./src/images/icon-arrow-down.svg" alt="arrow">
                         </li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">About</a></li>
+                        <li>
+                            <ul class="company-toggle none">
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="margin"><a href="#">Careers</a></li>
+                        <li class="margin"><a href="#">About</a></li>
                     </ul>
                 </nav>
                 <ul class="login">
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li class="margin"><a href="#">Login</a></li>
+                    <li class="margin"><a href="#">Register</a></li>
                 </ul>
             </div>
-            <ul class="features-toggle none">
-                <li>
-                    <img src="./src/images/icon-todo.svg" alt="icon Todo">
-                    <a href="#">Todo List</a>
-                </li>
-                <li>
-                    <img src="./src/images/icon-calendar.svg" alt="icon Todo">
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <img src="./src/images/icon-reminders.svg" alt="icon Todo">
-                    <a href="#">Reminders</a>
-                </li>
-                <li>
-                    <img src="./src/images/icon-planning.svg" alt="icon Todo">
-                    <a href="#">Planning</a>
-                </li>
-            </ul>
-            <ul class="Company-toggle none">
-                <li><a href="#">History</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
+            <img class="toggle-menu" src="./src/images/icon-menu.svg" alt="menu">
         </header>
         <section class="main">
             <div class="info">

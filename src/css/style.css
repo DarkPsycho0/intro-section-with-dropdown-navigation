@@ -78,11 +78,11 @@ body{
 }
 .features-toggle{
     top: 11%;
-    left: 19%;
+    left: 20%;
 }
 .company-toggle{
     top: 11%;
-    left: 29%;
+    left: 30%;
 }
 li:hover{
     color: hsl(0, 0%, 8%);

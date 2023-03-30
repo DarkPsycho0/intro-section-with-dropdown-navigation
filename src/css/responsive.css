@@ -1,11 +1,11 @@
 @media(max-width:1440px){
     .features-toggle{
         top: 9%;
-        left: 9%;
+        left: 10%;
     }
     .company-toggle{
         top: 9%;
-        left: 22%;
+        left: 23%;
     }
     .description, .btn{
         margin-bottom: 55px;
@@ -19,11 +19,11 @@
 @media(max-width:1024px){
     .features-toggle{
         top: 13%;
-        left: 12%;
+        left: 14%;
     }
     .company-toggle{
         top: 13%;
-        left: 31%;
+        left: 33%;
     }
     .title{
         font-size: 65px;
@@ -49,12 +49,12 @@
         width: 400px;
     }
     .features-toggle{
-        top: 14%;
-        left: 8%;
+        top: 15%;
+        left: 10%;
     }
     .company-toggle{
-        top: 14%;
-        left: 32%;
+        top: 15%;
+        left: 34%;
     }
     .main{
         flex-direction: column-reverse;
